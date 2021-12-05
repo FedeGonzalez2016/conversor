@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Conversor</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="conversor.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+        
+    </head>
+
+    <body>
+
+    <div class="container">
+        <h1>Conversor</h1>
+
+        <h2> Esta es una pequeña aplicación que te permitira convertir: </h2>
+        <h2>Millas a kilometros</h2>
+        <h2>Pulgadas a centimetros</h2>
+        
+        <hr>
+        
+        <img class="imagen" src="imagen.jpg" alt="Valores de conversion" />
+
+        <hr>
+
+
+        <form>
+
+            <label>Ingresa las millas:</label>
+
+            <input type="text" id="millas" size="20" value="0">
+
+            <input type="button" value="Calcular kilometros" onclick="calcularKilometros()">
+
+        </form>
+
+        <br>
+
+        <div id="Resultado1">Aquí aparecerá tu resultado</div>
+
+        <br>
+
+        <form>
+
+            <label>Ingresa las pulgadas:</label>
+
+            <input type="text" id="pulgadas" size="20" value="0">
+
+            <input type="button" value="Calcular centimetros" onclick="calcularCentimetros()">
+
+        </form>
+
+        <br>
+
+        <div id="Resultado2">Aquí aparecerá tu resultado</div>
+
+        <br>
+
+    </div>
+
+    </body>
+
+</html>

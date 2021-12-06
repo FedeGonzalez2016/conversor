@@ -12,8 +12,10 @@ body {
 
 .bg-image {
 
-    height: 100vh;
-
+    
+        max-width: 100%;
+        height: auto;
+    /* Para hacer responsivo el fondo de pantalla del dispositivo*/
 
 }
 

@@ -9,6 +9,13 @@
 
         <script src="conversor.js"></script>
 
+        <!--Para hacer responsivo toda la web-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8"/>
+        <meta name="description" content="Web que permitira al usuario la conversion de diferentes tipos de valores en otros de su interes"/>
+        <meta name="keywords" content="conversor,medidas,longitud,masa,tiempo,temperatura,kilometros,metros,centimetros,millas,libras,kilos,pies,yardas,conversiones,tipos"/>
+        <meta name="author" content="Federico Gonzalez" />
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -46,46 +53,51 @@
         <br>
 
         <div class="p-3 mb-2 bg-dark text-white mt-3 mb-5"><h2>Conversiones Frecuentes</h2></div>
-        
-                <form>
-                    <label class="text-white"><Strong>Ingresar MILLAS a KILOMETROS:</Strong></label>
-                    <input type="text" id="millas" size="20" value="0">
-                    <input type="button" class="btn btn-dark" value="Calcular" onclick="calcularKilometros()">
-                </form>
-        
-                <br>
-                <div class="text-white" id="Resultado1">AQUI APARECERÁ TU RESULTADO</div>
-                <br>
-        
-                <form>
-                    <label class="text-white"><Strong>Ingresa PULGADAS a CENTIMETROS:</Strong></label>
-                    <input type="text" id="pulgadas" size="20" value="0">
-                    <input type="button" class="btn btn-dark" value="Calcular" onclick="calcularCentimetros()">
-                </form>
-        
-                <br>
-                <div class="text-white" id="Resultado2">AQUI APARECERÁ TU RESULTADO</div>
-                <br>
-        
-                <form>
-                    <label class="text-white"><Strong>Ingresa LIBRAS a KILOS:</Strong></label>
-                    <input type="text" id="libras" size="20" value="0">
-                    <input type="button" class="btn btn-dark" value="Calcular" onclick="calcularKilos()">
-                </form>
-        
-                <br>
-                <div class="text-white" id="Resultado3">AQUI APARECERÁ TU RESULTADO</div>
-                <br>
-        
-                <form>
-                    <label class="text-white"><Strong>Ingresa PIES a CENTIMETROS:</Strong></label>
-                    <input type="text" id="pies" size="20" value="0">
-                    <input type="button" class="btn btn-dark" value="Calcular" onclick="calcularPies()">
-                </form>
-        
-                <br>
-                <div class="text-white" id="Resultado4">AQUI APARECERÁ TU RESULTADO</div>
-                <br>
+
+        <div class="card bg-dark text-white mb-5 rounded">
+            
+            <form>
+                <label class="text-white"><Strong>MILLAS a KILOMETROS:</Strong></label>
+                <input type="text" id="millas" size="20" value="0">
+                <input type="button" class="btn btn-primary" value="Calcular" onclick="calcularKilometros()">
+            </form>
+    
+            <br>
+            <div class="text-white text-center" id="Resultado1">RESULTADO</div>
+            <br>
+    
+            <form>
+                <label class="text-white"><Strong>PULGADAS a CENTIMETROS:</Strong></label>
+                <input type="text" id="pulgadas" size="20" value="0">
+                <input type="button" class="btn btn-primary" value="Calcular" onclick="calcularCentimetros()">
+            </form>
+    
+            <br>
+            <div class="text-white text-center" id="Resultado2">RESULTADO</div>
+            <br>
+    
+            <form>
+                <label class="text-white"><Strong>LIBRAS a KILOS:</Strong></label>
+                <input type="text" id="libras" size="20" value="0">
+                <input type="button" class="btn btn-primary" value="Calcular" onclick="calcularKilos()">
+            </form>
+    
+            <br>
+            <div class="text-white text-center" id="Resultado3">RESULTADO</div>
+            <br>
+    
+            <form>
+                <label class="text-white"><Strong>PIES a CENTIMETROS:</Strong></label>
+                <input type="text" id="pies" size="20" value="0">
+                <input type="button" class="btn btn-primary" value="Calcular" onclick="calcularPies()">
+            </form>
+    
+            <br>
+            <div class="text-white text-center" id="Resultado4">RESULTADO</div>
+            <br>
+            
+        </div>
+                
 
     </div>
 

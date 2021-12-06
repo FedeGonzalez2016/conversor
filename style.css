@@ -6,10 +6,17 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
-
     font-family: 'Roboto', sans-serif !important;
 
 }
+
+.bg-image {
+
+    height: 100vh;
+
+
+}
+
 .imagen {
     border-radius: 15%;
 }

@@ -44,21 +44,30 @@
 
         <select class="form-select" aria-label="Default select example">
             <option selected>Seleccionar Opción</option>
-            <option value="1">Longitud</option>
-            <option value="2">Masa</option>
-            <option value="3">Tiempo</option>
-            <option value="3">Temperatura</option>
-          </select>
+            <option value="longitud">Longitud</option>
+            <option value="masa">Masa</option>
+            <option value="tiempo">Tiempo</option>
+            <option value="temperatura">Temperatura</option>
+        </select>
+
+        <select class="form-select d-none" aria-label="Default select example">
+            <option selected>Seleccionar Opción</option>
+            <option value="1">Celsius a Fahrenheit</option>
+            <option value="2">Fahrenheit a Celsius</option>
+        </select>
         
         <br>
 
         <div class="p-3 mb-2 bg-dark text-white mt-3 mb-5"><h2>Conversiones Frecuentes</h2></div>
 
-        <div class="card bg-dark text-white mb-5 rounded">
+        <div class="card border bg-dark text-white mb-5 rounded ">
             
-            <form>
+            <form class="text-center">
                 <label class="text-white"><Strong>MILLAS a KILOMETROS:</Strong></label>
-                <input type="text" id="millas" size="20" value="0">
+                <br>
+                <input type="number" id="millas" size="20" value="0">
+                <br>
+                <br>
                 <input type="button" class="btn btn-primary" value="Calcular" onclick="calcularKilometros()">
             </form>
     
@@ -66,9 +75,12 @@
             <div class="text-white text-center" id="Resultado1">RESULTADO</div>
             <br>
     
-            <form>
+            <form class="text-center">
                 <label class="text-white"><Strong>PULGADAS a CENTIMETROS:</Strong></label>
-                <input type="text" id="pulgadas" size="20" value="0">
+                <br>
+                <input type="number" id="pulgadas" size="20" value="0">
+                <br>
+                <br>
                 <input type="button" class="btn btn-primary" value="Calcular" onclick="calcularCentimetros()">
             </form>
     
@@ -76,9 +88,12 @@
             <div class="text-white text-center" id="Resultado2">RESULTADO</div>
             <br>
     
-            <form>
+            <form class="text-center">
                 <label class="text-white"><Strong>LIBRAS a KILOS:</Strong></label>
-                <input type="text" id="libras" size="20" value="0">
+                <br>
+                <input type="number" id="libras" size="20" value="0">
+                <br>
+                <br>
                 <input type="button" class="btn btn-primary" value="Calcular" onclick="calcularKilos()">
             </form>
     
@@ -86,9 +101,12 @@
             <div class="text-white text-center" id="Resultado3">RESULTADO</div>
             <br>
     
-            <form>
+            <form class="text-center">
                 <label class="text-white"><Strong>PIES a CENTIMETROS:</Strong></label>
-                <input type="text" id="pies" size="20" value="0">
+                <br>
+                <input type="number" id="pies" size="20" value="0">
+                <br>
+                <br>
                 <input type="button" class="btn btn-primary" value="Calcular" onclick="calcularPies()">
             </form>
     

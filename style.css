@@ -23,14 +23,23 @@ body {
     border-radius: 15%;
 }
 
+/*
 #Resultado {
     margin-top: 20px;
 }
+*/
 
 .container {
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+
+#millas , #pulgadas, #libras, #pies {
+
+    background-color: black !important;
+    color: white !important;
 
 }

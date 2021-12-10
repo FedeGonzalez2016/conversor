@@ -6,7 +6,7 @@ function calcularKilometros() {
     // guardamos una variable con el factor de conversión
     const factor = 1.60934;
 
-    // calculamos las millas
+    // calculamos
     var kilometros = millas * factor;
 
     document.getElementById("Resultado1").innerHTML = millas + " Millas equivalen a <strong>" + kilometros + "</strong> kilometros.";
@@ -21,7 +21,7 @@ function calcularCentimetros() {
     // guardamos una variable con el factor de conversión
     const factor = 2.54;
 
-    // calculamos las millas
+    // calculamos
     var centimetros = pulgadas * factor;
 
     document.getElementById("Resultado2").innerHTML = pulgadas + " Pulgadas equivalen a <strong>" + centimetros + "</strong> centimetros.";
@@ -36,7 +36,7 @@ function calcularKilos() {
     // guardamos una variable con el factor de conversión
     const factor = 0.453592;
 
-    // calculamos las millas
+    // calculamos
     var kilogramos = libras * factor;
 
     document.getElementById("Resultado3").innerHTML = libras + " Libras equivalen a <strong>" + kilogramos + "</strong> Kilos.";
@@ -51,7 +51,7 @@ function calcularPies() {
     // guardamos una variable con el factor de conversión
     const factor = 30.48;
 
-    // calculamos las millas
+    // calculamos 
     var centimetros = pies * factor;
 
     document.getElementById("Resultado4").innerHTML = pies + " Pies equivalen a <strong>" + centimetros + "</strong> centimetros.";

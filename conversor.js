@@ -57,3 +57,4 @@ function calcularPies() {
     document.getElementById("Resultado4").innerHTML = pies + " Pies equivalen a <strong>" + centimetros + "</strong> centimetros.";
 
 }
+

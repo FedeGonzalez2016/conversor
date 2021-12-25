@@ -58,6 +58,8 @@
         
         <br>
 
+        <!--<input type="number" onkeydown="javascript: return event.keyCode === 8 || event.keyCode === 46 ? true : !isNaN(Number(event.key))" />-->
+
         <div class="p-3 mb-2 bg-dark text-white mt-3 mb-5"><h2>Conversiones Frecuentes</h2></div>
 
         <div class="card border bg-dark text-white mb-5 rounded ">
@@ -65,7 +67,7 @@
             <form class="text-center">
                 <label class="text-white"><Strong>MILLAS a KILOMETROS:</Strong></label>
                 <br>
-                <input type="number" id="millas" size="20" value="0">
+                <input type="number" id="millas" size="20" value="0" onkeydown="javascript: return event.keyCode === 8 || event.keyCode === 46 ? true : !isNaN(Number(event.key))">
                 <br>
                 <br>
                 <input type="button" class="btn btn-primary" value="Calcular" onclick="calcularKilometros()">
@@ -78,7 +80,7 @@
             <form class="text-center">
                 <label class="text-white"><Strong>PULGADAS a CENTIMETROS:</Strong></label>
                 <br>
-                <input type="number" id="pulgadas" size="20" value="0">
+                <input type="number" id="pulgadas" size="20" value="0" onkeydown="javascript: return event.keyCode === 8 || event.keyCode === 46 ? true : !isNaN(Number(event.key))">
                 <br>
                 <br>
                 <input type="button" class="btn btn-primary" value="Calcular" onclick="calcularCentimetros()">
@@ -91,7 +93,7 @@
             <form class="text-center">
                 <label class="text-white"><Strong>LIBRAS a KILOS:</Strong></label>
                 <br>
-                <input type="number" id="libras" size="20" value="0">
+                <input type="number" id="libras" size="20" value="0" onkeydown="javascript: return event.keyCode === 8 || event.keyCode === 46 ? true : !isNaN(Number(event.key))">
                 <br>
                 <br>
                 <input type="button" class="btn btn-primary" value="Calcular" onclick="calcularKilos()">
@@ -104,7 +106,7 @@
             <form class="text-center">
                 <label class="text-white"><Strong>PIES a CENTIMETROS:</Strong></label>
                 <br>
-                <input type="number" id="pies" size="20" value="0">
+                <input type="number" id="pies" size="20" value="0" onkeydown="javascript: return event.keyCode === 8 || event.keyCode === 46 ? true : !isNaN(Number(event.key))">
                 <br>
                 <br>
                 <input type="button" class="btn btn-primary" value="Calcular" onclick="calcularPies()">

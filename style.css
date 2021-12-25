@@ -1,22 +1,16 @@
 
 body {
-
-    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
     font-family: 'Roboto', sans-serif !important;
-
 }
 
 .bg-image {
-
-    
         max-width: 100%;
         height: auto;
     /* Para hacer responsivo el fondo de pantalla del dispositivo*/
-
 }
 
 .imagen {
@@ -30,16 +24,30 @@ body {
 */
 
 .container {
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 #millas , #pulgadas, #libras, #pies {
-
     background-color: black !important;
     color: white !important;
+}
+
+.form-select {
+    width: 400px !important;
+}
+
+.card {
+    width: 1000px;
+}
+
+@media (max-width: 975px) {
+
+    .card {
+
+        width: 400px;
+
+    }
 
 }
